@@ -90,7 +90,7 @@ workflows:
       - MY_STEPLIB_REPO_FORK_GIT_URL: $MY_STEPLIB_REPO_FORK_GIT_URL
       - STEP_ID_IN_STEPLIB: aws-device-farm-runner
       - STEP_GIT_VERION_TAG_TO_SHARE: 0.0.8
-      - STEP_GIT_CLONE_URL: https://github.com/peartherapeutics/bitrise-aws-device-farm-runner.git
+      - STEP_GIT_CLONE_URL: https://github.com/lautarochiarle/bitrise-aws-device-farm-runner.git
     description: |-
       If this is the first time you try to share a Step you should
       first call: $ bitrise share

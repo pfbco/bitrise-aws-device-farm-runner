@@ -2,9 +2,9 @@ title: "Amazon Device Farm Runner"
 summary: "Amazon Device Farm Runner"
 description: |-
   Deploys app to device farm and starts a test run. [Please see the wiki for setup instructions](https://github.com/peartherapeutics/bitrise-aws-device-farm-runner/wiki).
-website: https://github.com/peartherapeutics/bitrise-aws-device-farm-runner
-source_code_url: https://github.com/peartherapeutics/bitrise-aws-device-farm-runner
-support_url: https://github.com/peartherapeutics/bitrise-aws-device-farm-runner/issues
+website: https://github.com/lautarochiarle/bitrise-aws-device-farm-runner
+source_code_url: https://github.com/lautarochiarle/bitrise-aws-device-farm-runner
+support_url: https://github.com/lautarochiarle/bitrise-aws-device-farm-runner/issues
 host_os_tags:
   - linux
   - osx-10.9
