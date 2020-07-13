@@ -137,7 +137,7 @@ inputs:
       summary: ""
       description: "This step adds the opportunity to filter your tests. For example com.android.abc.test1. [See the ScheduleRunTest.filter documentation](https://docs.aws.amazon.com/devicefarm/latest/APIReference/API_ScheduleRunTest.html#devicefarm-Type-ScheduleRunTest-filter)."
       is_required: false
-  - test_spec: ""
+  - test_spec: "$TEST_SPEC"
     opts:
       title: "Device Farm Custom TestSpec ARN"
       summary: ""
