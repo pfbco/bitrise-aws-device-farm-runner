@@ -203,7 +203,7 @@ function device_farm_run {
         fi
 
         echo_details "Upload not yet processed; waiting. (Status=$upload_status)"
-        sleep 10s
+        sleep 10
         upload_status=$(set -eu; get_upload_status "$app_arn")
     done
     echo_details 'Upload successful! Starting run...'
@@ -281,7 +281,7 @@ function device_farm_run {
             fi
 
             echo_details "Run not yet completed; waiting. (Status=$run_result)"
-            sleep 30s
+            sleep 30
             run_result=$(set -eu; get_run_result "$run_arn")
         done
 
